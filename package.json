@@ -1,0 +1,42 @@
+{
+  "name": "create-store-hook",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./lib/",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prepack": "webpack"
+  },
+  "author": "gabel",
+  "homepage": "",
+  "license": "MIT",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "npm": ">= 6.14.8",
+    "node": ">= 12.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "@types/webpack": "^4.41.21",
+    "bundle-declarations-webpack-plugin": "0.0.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "@types/react": "^16.9.56"
+  }
+}
